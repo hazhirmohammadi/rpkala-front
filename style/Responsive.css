@@ -42,9 +42,18 @@
         display: none !important;
     }
 
+    .section__slogan div{
+        width: 66% !important;
+    }
+
     .logo_wrapped {
         display: flex;
         margin: 0 auto;
+    }
+
+    .section_img{
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -53,7 +62,6 @@
         width: inherit;
 
     }
-
     .header__section-right {
 
     }
@@ -66,4 +74,10 @@
         font-size: 16px !important;
         line-height: 34px;
     }
+
+   @media only screen and (min-width:1350px ) {
+       .section_img img{
+           width: 400px;
+       }
+   }
 }
